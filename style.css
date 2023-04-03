@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4d4f62;
+  padding: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER SECTION  */
+header {
+  text-align: center;
+  width: 100%;
+  max-width: 54rem;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3.6rem;
+  font-weight: 275;
+  font-style: normal;
+}
+
+header span {
+  display: block;
+  font-weight: 600;
+  line-height: 5.4rem;
+  letter-spacing: 0.25px;
+}
+
+header p {
+  font-size: 1.5rem;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  letter-spacing: 0.104167px;
+  margin-top: 1.6rem;
+}
+
+/* CARD SECTION */
+.card-section {
+  margin-top: 6.4rem;
+  gap: 3rem;
+}
+
+.card {
+  width: 35rem;
+  padding: 3.2rem;
+
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 0.8rem;
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.card p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  margin-top: 0.6rem;
+}
+
+.card img {
+  display: block;
+  margin-top: 4rem;
+  margin-left: auto;
+}
+
+.teal-card {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.red-card {
+  border-top: 3px solid hsl(0, 78%, 62%);
+  margin-bottom: 3rem;
+}
+.orange-card {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.blue-card {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.card-section {
+  display: flex;
+
+  align-items: center;
+}
