@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #4d4f62;
   padding: 8rem;
+  background-color: hsl(0, 0%, 98%);
 
   display: flex;
   flex-direction: column;
@@ -59,6 +60,7 @@ header p {
 .card {
   width: 35rem;
   padding: 3.2rem;
+  background-color: #FFF;
 
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   border-radius: 0.8rem;
